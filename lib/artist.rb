@@ -1,12 +1,11 @@
 require 'pry'
 
 class Artist 
-attr_accessor :name, :song
+attr_accessor :name
 @@all = []
 
 def initialize(name)
   @name = name 
-  @song = song
   @@all << self
 end 
 
@@ -15,7 +14,6 @@ def self.all
 end
 
 def songs 
-  binding pry 
 end 
 
 

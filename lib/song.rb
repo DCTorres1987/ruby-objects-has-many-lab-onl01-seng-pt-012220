@@ -12,7 +12,11 @@ def self.all
 end
 
 def artist_name
-  
+  if !artist 
+    return nil 
+  else 
+    artist.name 
+  end
 end
 
 end

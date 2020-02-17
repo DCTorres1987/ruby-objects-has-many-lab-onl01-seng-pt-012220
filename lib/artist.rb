@@ -22,6 +22,7 @@ def add_song(song)
 end
 
 def add_song_by_name(song) 
+  binding pry
 end
 
 end

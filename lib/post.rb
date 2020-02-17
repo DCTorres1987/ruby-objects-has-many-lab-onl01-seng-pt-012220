@@ -14,8 +14,10 @@ def self.all
 end 
 
 def author_name
-  !self.author.name 
-  return nil
+  if !author 
+  return nil 
+  else
+  author.name
 end
 
 end

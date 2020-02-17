@@ -14,11 +14,7 @@ def self.all
 end 
 
 def author_name
-  if self.author.name.any?
-     self.author.name
-  else 
-     nil
-  end
+  self.author.name ? self.author.name : nil
 end
 
 end

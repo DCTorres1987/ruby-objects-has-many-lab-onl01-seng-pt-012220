@@ -14,7 +14,7 @@ def self.all
 end 
 
 def author_name
-  Post.author.name
+  title.author.name
 end
 
 end

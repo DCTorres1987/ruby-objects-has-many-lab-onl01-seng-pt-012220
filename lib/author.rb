@@ -1,3 +1,4 @@
+require 'pry'
 class Author 
   attr_accessor :name 
   
@@ -21,6 +22,7 @@ def add_post(new_post)
 end
 
 def add_post_by_title(post_title)
+  binding pry
    new_post = Post.new(post_title)
    add_post(new_post)
 end

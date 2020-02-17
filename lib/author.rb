@@ -17,7 +17,7 @@ def posts
 end
 
 def add_post(new_post) 
-  Author.
+  new_post.author = self
   
 end
 

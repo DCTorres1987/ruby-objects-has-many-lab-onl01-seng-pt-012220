@@ -14,7 +14,6 @@ def self.all
 end
 
 def song 
-  @song 
   binding pry 
 end 
 

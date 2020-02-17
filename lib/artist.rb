@@ -14,7 +14,7 @@ def self.all
 end
 
 def songs 
-  song.all
+  Song.all
 end 
 
 

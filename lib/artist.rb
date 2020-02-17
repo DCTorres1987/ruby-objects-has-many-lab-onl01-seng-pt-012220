@@ -13,7 +13,7 @@ def self.all
   @@all
 end
 
-def song 
+def songs 
   binding pry 
 end 
 

@@ -30,4 +30,7 @@ def self.post_count
   Post.all.count 
 end
 
+def author_name
+end
+
 end

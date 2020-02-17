@@ -26,4 +26,6 @@ def add_song_by_name(song_name)
   add_song(new_song)
 end
 
+def self.
+
 end

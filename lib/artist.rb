@@ -13,9 +13,11 @@ def self.all
   @@all
 end
 
-def songs 
-  song.all
-    binding pry
+def song 
+  @song 
+  binding pry 
+end 
+
 end 
 
 end

@@ -16,7 +16,9 @@ def posts
   Post.all 
 end
 
-def add_post 
+def add_post(new_post) 
+  new_post = Post.new(new_post)
+  
 end
 
 end

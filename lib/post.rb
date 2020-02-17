@@ -19,5 +19,6 @@ def author_name
   else
   author.name
 end
+end
 
 end
